@@ -1,0 +1,7 @@
+.count {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+  margin: 12px 0;
+}

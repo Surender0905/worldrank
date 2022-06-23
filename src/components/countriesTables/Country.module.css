@@ -1,0 +1,53 @@
+.head {
+  display: flex;
+  gap: 3rem;
+}
+
+.head button {
+  border: none;
+  background: transparent;
+}
+
+.head_name,
+.head_population {
+  flex: 1;
+  padding: 2rem;
+  color: var(--text-secondary-color);
+
+  font-weight: 500;
+}
+.head_name {
+  text-align: left;
+}
+
+.country {
+  display: flex;
+
+  background-color: var(--bg);
+
+  border-radius: 8px;
+  padding: 1.6rem;
+  margin: 12px 0;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.country:hover {
+  background-color: var(--primary-color);
+  color: var(--bg);
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+}
+
+.population {
+  text-align: center;
+}
+
+.arrow1 {
+  margin-left: 1rem;
+}
